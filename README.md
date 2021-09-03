@@ -9,3 +9,4 @@
     * body, p tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/02_html_body.html)
     * a, img tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/03_html_link_img.html)
     * div, span tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/04_html_div_span.html)
+    * summary [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/05_html_summary.html)
