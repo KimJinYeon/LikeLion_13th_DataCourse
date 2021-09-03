@@ -7,4 +7,5 @@
   * HTML 기본 실습
     * title tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/01_html_title.html)
     * body, p tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/02_html_body.html)
-    * img tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/03_html_link_img.html)
+    * a, img tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/03_html_link_img.html)
+    * div, span tag [Code](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/04_html_div_span.html)
