@@ -10,3 +10,6 @@
     * [a, img tag](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/03_html_link_img.html)
     * [div, span tag](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/04_html_div_span.html)
     * [summary](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/web_html/05_html_summary.html)
+
+  * CSS 기본 실습
+    * ToyProject : [나의 갤러리 만들기](https://kimjinyeon.github.io/LikeLion_13th_DataCourse/02_css_practice/11_img_gallery.html)
