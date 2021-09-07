@@ -20,3 +20,7 @@ div.profilecontent{
     margin-top: 10px;
     margin-left: 10px;
 }
+
+div.profilecontent:hover{
+    border: 2px pink solid;
+}
