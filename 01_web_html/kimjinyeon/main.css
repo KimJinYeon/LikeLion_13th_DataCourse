@@ -1,3 +1,21 @@
-body {
+
+div.headerdiv{
     text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.profilelist{
+    width : 950px;
+    text-align: center;
+    border: solid black 2px;
+}
+
+div.profilecontent{
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
