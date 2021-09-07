@@ -9,6 +9,7 @@ div.profilelist{
     width : 950px;
     text-align: center;
     border: solid black 2px;
+    margin: 0 auto;
 }
 
 div.profilecontent{
