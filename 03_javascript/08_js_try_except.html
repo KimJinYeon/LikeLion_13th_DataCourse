@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <script>
+        function errmake(){
+            try{
+                aalert("hello, welcome");
+            } catch(err){
+                document.getElementById('demo_err').innerHTML = err.message;
+            }
+        }
+    </script>
+    
+    <body>
+        <p id="demo_err">에러 내용</p>
+        <button onclick="errmake()">에러 만들기</button>
+    </body>
+</html>
