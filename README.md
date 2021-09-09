@@ -18,8 +18,8 @@
   
   #### 웹 크롤링
   * [코스닥 정보 수집 코드](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/04_web_data/07_kosdaq.py)
-  * [코스닥 정보 수집 csv 20210908](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/04_web_data/kosdaq_csv)
+    - [코스닥 정보 수집 csv 20210908](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/04_web_data/kosdaq_csv)
   * [영화 댓글 수집 코드(코다)](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/04_web_data/12_review2.py)
-  * [영화 댓글 수집 csv(코다)](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/04_web_data/코다댓글.csv)
-  * [코다 인포그래픽](https://kimjinyeon.github.io/LikeLion_13th_DataCourse/04_web_data/김진연_wordcloud_코다.png)
+    - [영화 댓글 수집 csv(코다)](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/04_web_data/코다댓글.csv)
+    - [코다 인포그래픽](https://kimjinyeon.github.io/LikeLion_13th_DataCourse/04_web_data/김진연_wordcloud_코다.png)
 
