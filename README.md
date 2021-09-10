@@ -37,4 +37,6 @@
   * [아마존 상품 리뷰 크롤링(실패)](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/amazon_review.py)
     - [아마존 정책](https://www.amazon.com/robots.txt)
     - 아마존은 고객 리뷰와 관련한 데이터를 대규모로 수집하는 것을 허용하지 않고 있다. (20210910 추가)
+    - 여러 페이지를 탐색할 때, 크롬을 켜지 않고 하는 것이 편리하다는 것을 알게 되었다.
+      + ChromeOptions에서 add_argument('headless')로 설정 가능
 
