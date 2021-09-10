@@ -12,7 +12,6 @@
   * [summary](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/01_web_html/05_html_summary.html)
   * [자기소개 페이지](https://kimjinyeon.github.io/LikeLion_13th_DataCourse/01_web_html/kimjinyeon/main.html)
     
-
   #### CSS 기본 실습
   * [나의 갤러리 만들기](https://kimjinyeon.github.io/LikeLion_13th_DataCourse/02_css_practice/11_img_gallery.html)
   
