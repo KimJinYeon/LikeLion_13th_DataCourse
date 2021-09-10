@@ -30,4 +30,4 @@
   #### 셀레니움
   * [jupyter 기반 셀레니움 활용 기초](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/selenium.ipynb)
   * [jupyter 기반 셀레니움 활용 - 아마존 상품 정보 찾기](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/selenium2.ipynb)
-
+  * [아마존 상품 리뷰 크롤링(실패)]()
