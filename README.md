@@ -30,4 +30,7 @@
   #### 셀레니움
   * [jupyter 기반 셀레니움 활용 기초](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/selenium.ipynb)
   * [jupyter 기반 셀레니움 활용 - 아마존 상품 정보 찾기](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/selenium2.ipynb)
-  * [아마존 상품 리뷰 크롤링(실패)]()
+  * [아마존 상품 리뷰 크롤링(실패)](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/amazon_commerce.py)
+    - [아마존 정책](https://www.amazon.com/robots.txt)
+    - 아마존은 고객 리뷰와 관련한 데이터를 대규모로 수집하는 것을 허용하지 않고 있다.
+    
