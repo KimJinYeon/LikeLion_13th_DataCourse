@@ -41,7 +41,9 @@
       + ChromeOptions에서 add_argument('headless')로 설정 가능 (20210910 추가)
   * [다나와 상품 정보 크롤링](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa.py)
     - [다나와 상품 정보 1페이지 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa_vga_info_p1.csv)
-      - 다나와에서 셀레니움으로 '그래픽카드'를 검색한 후, 페이지 정보를 받아와서 분석
+    - [다나와 상품 리뷰 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa_com.csv)
+    - [다나와 상품 리뷰 인포그래픽](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa_vga_wordcloud.png)
+      - 다나와에서 셀레니움으로 '그래픽카드'를 검색한 후, 이름, 가격, 별점, 리뷰 정보 수집
       - ChromeOptions에서 add_argument('disable_gpu')를 추가하면 gpu를 사용하지 않고 실행할 수 있다. (20210912 추가)
   * 크롤링과 관련된 법적 문제
     - 모든 크롤링이 불법은 아니지만 불법의 소지가 있을 수 있다.
