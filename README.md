@@ -57,5 +57,7 @@
   * [유튜브 댓글 크롤링](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/youtube.py)
     - [유튜브 댓글 수집 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/yt_comment.csv)
 
+  #### 파이썬 시각화 라이브러리
+  * [matplotlib 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/matplotlib.ipynb)
   #### 케글
-  * [타이타닉 데이터 시각화](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/matplotlib.ipynb)
+  * [타이타닉 데이터 시각화]()
