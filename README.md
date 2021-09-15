@@ -56,8 +56,10 @@
         + 무단 복제한 채용공고 1건당 50만원의 배상(총 2억 원), 데이터베이스권 침해에 따른 2억 5천만원 배상 (20210912 추가)
   * [유튜브 댓글 크롤링](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/youtube.py)
     - [유튜브 댓글 수집 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/yt_comment.csv)
+    - 유튜브처럼 스크롤을 내리면 컨텐츠를 로딩하는 경우 셀레니움을 이용해서 스크롤을 내린 다음 수집해야 한다.
+    - 구글에서는 Youtube Data Api를 정식으로 제공하고 있다. (20200914 추가)
 
   #### 파이썬 시각화 라이브러리
   * [matplotlib 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/matplotlib.ipynb)
   #### 케글
-  * [타이타닉 데이터 시각화]()
+  * [타이타닉 데이터 시각화](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/titanic.ipynb)
