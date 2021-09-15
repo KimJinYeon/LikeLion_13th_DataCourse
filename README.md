@@ -54,4 +54,8 @@
         + 잡코리아는 사람인이 웹 크롤링을 통해 채용공고를 무단 복제한 건에 대해 고소
         + 이 건에서 대법원은 사람인이 부정경쟁행위를 저지르고 잡코리아의 데이터베이스권을 침해했다고 판단. 
         + 무단 복제한 채용공고 1건당 50만원의 배상(총 2억 원), 데이터베이스권 침해에 따른 2억 5천만원 배상 (20210912 추가)
+  * [유튜브 댓글 크롤링](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/youtube.py)
+    - [유튜브 댓글 수집 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/yt_comment.csv)
 
+  #### 케글
+  * [타이타닉 데이터 시각화](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/matplotlib.ipynb)
