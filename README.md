@@ -59,7 +59,9 @@
     - 유튜브처럼 스크롤을 내리면 컨텐츠를 로딩하는 경우 셀레니움을 이용해서 스크롤을 내린 다음 수집해야 한다.
     - 구글에서는 Youtube Data Api를 정식으로 제공하고 있다. (20200914 추가)
 
-  #### 파이썬 시각화 라이브러리
+  #### 파이썬 라이브러리
   * [matplotlib 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/matplotlib.ipynb)
+  * [pandas 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/pandas.ipynb)
+  * [titanic 데이터 분석 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/titanic_report.ipynb)
   #### 케글
   * [타이타닉 데이터 시각화](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/titanic.ipynb)
