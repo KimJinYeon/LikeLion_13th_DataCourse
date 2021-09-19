@@ -22,10 +22,10 @@
     + 인포그래픽에도 코인, 떡상과 같은 키워드가 존재하지 않을까?
 
 ### 결과
-* [다나와 상품 정보 크롤링](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa.py)
-    - [다나와 상품 정보 1페이지 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa_vga_info_p1.csv)
-    - [다나와 상품 리뷰 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa_com.csv)
-    - [다나와 상품 리뷰 인포그래픽](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/05_selenium/danawa_vga_wordcloud.png)
+* [다나와 상품 정보 크롤링](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/07_pilot_project/danawa.py)
+    - [다나와 상품 정보 1페이지 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/07_pilot_project/danawa_vga_info_p1.csv)
+    - [다나와 상품 리뷰 csv](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/07_pilot_project/danawa_com.csv)
+    - [다나와 상품 리뷰 인포그래픽](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/07_pilot_project/danawa_vga_wordcloud.png)
 * 그래픽 카드의 가격대는 100만원 내외로 매우 높았고 300만원대 고가의 제품도 있었다.
 * 리뷰에 고객문의에 대한 답변이 매우 많아서, 인포그래픽에서 유의미한 정보를 얻을 수 없었다.
 
