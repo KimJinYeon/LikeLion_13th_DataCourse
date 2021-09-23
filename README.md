@@ -57,5 +57,9 @@
   * [matplotlib 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/matplotlib.ipynb)
   * [pandas 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/pandas.ipynb)
   * [titanic 데이터 분석 연습](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/titanic_report.ipynb)
+  
   #### 케글
   * [타이타닉 데이터 시각화](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/titanic.ipynb)
+
+  #### folium
+  * [지하철 3호선 위치 정보](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/08_folium/SeoulMetro3.html)
