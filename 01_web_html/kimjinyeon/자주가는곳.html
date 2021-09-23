@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_82b8b9bc80f245d6a0f5132993ed9e92 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_82b8b9bc80f245d6a0f5132993ed9e92" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_82b8b9bc80f245d6a0f5132993ed9e92 = L.map(
+        'map_82b8b9bc80f245d6a0f5132993ed9e92', {
+        center: [37.57579434752539, 126.9585433234209],
+        zoom: 14,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_83213738ce47495faa80dd96aae898b3 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_82b8b9bc80f245d6a0f5132993ed9e92);
+    
+        var marker_a6a1f5dce7c8439a8ca2e6d23597914c = L.marker(
+            [37.574063, 126.956371],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_82b8b9bc80f245d6a0f5132993ed9e92);
+        
+    
+
+                var icon_914e543501464abd88d5c3728e234758 = L.AwesomeMarkers.icon({
+                    icon: 'info_sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6a1f5dce7c8439a8ca2e6d23597914c.setIcon(icon_914e543501464abd88d5c3728e234758);
+            
+    
+            var popup_ed3b773a1e56453c92bc93d81d372edc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dd0e6543079f4cac8121796d4b4ab018 = $(`<div id="html_dd0e6543079f4cac8121796d4b4ab018" style="width: 100.0%; height: 100.0%;">서대문독립공원</div>`)[0];
+                popup_ed3b773a1e56453c92bc93d81d372edc.setContent(html_dd0e6543079f4cac8121796d4b4ab018);
+            
+
+            marker_a6a1f5dce7c8439a8ca2e6d23597914c.bindPopup(popup_ed3b773a1e56453c92bc93d81d372edc)
+            ;
+
+            
+        
+    
+        var marker_c82aae5345064645878961d155143b6f = L.marker(
+            [37.57031301884244, 126.96181655930019],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_82b8b9bc80f245d6a0f5132993ed9e92);
+        
+    
+
+                var icon_d87b34ef3c054ac4b2a6e8e335197cf0 = L.AwesomeMarkers.icon({
+                    icon: 'info_sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c82aae5345064645878961d155143b6f.setIcon(icon_d87b34ef3c054ac4b2a6e8e335197cf0);
+            
+    
+            var popup_0369102cbbb74ca6a1d819fcf8ac010c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d47f0d7b60db42d8a808d70a017988e0 = $(`<div id="html_d47f0d7b60db42d8a808d70a017988e0" style="width: 100.0%; height: 100.0%;">서대문복싱클럽</div>`)[0];
+                popup_0369102cbbb74ca6a1d819fcf8ac010c.setContent(html_d47f0d7b60db42d8a808d70a017988e0);
+            
+
+            marker_c82aae5345064645878961d155143b6f.bindPopup(popup_0369102cbbb74ca6a1d819fcf8ac010c)
+            ;
+
+            
+        
+    
+        var marker_ba9f7df930f8464bbe7200d66e71a439 = L.marker(
+            [37.57509823589119, 126.9574696062522],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_82b8b9bc80f245d6a0f5132993ed9e92);
+        
+    
+
+                var icon_adba7796214c4423b90ff93251f9c2a3 = L.AwesomeMarkers.icon({
+                    icon: 'info_sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ba9f7df930f8464bbe7200d66e71a439.setIcon(icon_adba7796214c4423b90ff93251f9c2a3);
+            
+    
+            var popup_b6ebf4923bdc4181826c87c3131718f0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3244fec8c3a54e3895d7a71d97f3f880 = $(`<div id="html_3244fec8c3a54e3895d7a71d97f3f880" style="width: 100.0%; height: 100.0%;">세란병원</div>`)[0];
+                popup_b6ebf4923bdc4181826c87c3131718f0.setContent(html_3244fec8c3a54e3895d7a71d97f3f880);
+            
+
+            marker_ba9f7df930f8464bbe7200d66e71a439.bindPopup(popup_b6ebf4923bdc4181826c87c3131718f0)
+            ;
+
+            
+        
+    
+        var marker_3f730687c17449ecaf0b8072352a81a7 = L.marker(
+            [37.584941482893285, 126.95930845155209],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_82b8b9bc80f245d6a0f5132993ed9e92);
+        
+    
+
+                var icon_1434ae3010de47e4b2f693e940d38908 = L.AwesomeMarkers.icon({
+                    icon: 'info_sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f730687c17449ecaf0b8072352a81a7.setIcon(icon_1434ae3010de47e4b2f693e940d38908);
+            
+    
+            var popup_b263716111074ade887667e411fcc7f9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ceb04bb3c85348b9bf469b642dc15a4a = $(`<div id="html_ceb04bb3c85348b9bf469b642dc15a4a" style="width: 100.0%; height: 100.0%;">인왕산</div>`)[0];
+                popup_b263716111074ade887667e411fcc7f9.setContent(html_ceb04bb3c85348b9bf469b642dc15a4a);
+            
+
+            marker_3f730687c17449ecaf0b8072352a81a7.bindPopup(popup_b263716111074ade887667e411fcc7f9)
+            ;
+
+            
+        
+    
+        var marker_c2ec690c22394d909e6e1a931e0b5486 = L.marker(
+            [37.574556, 126.957751],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_82b8b9bc80f245d6a0f5132993ed9e92);
+        
+    
+
+                var icon_aa91353cf98d49daa1494e4e50d62854 = L.AwesomeMarkers.icon({
+                    icon: 'info_sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c2ec690c22394d909e6e1a931e0b5486.setIcon(icon_aa91353cf98d49daa1494e4e50d62854);
+            
+    
+            var popup_76a94e9e82f74e8ea3d052c0b53a6660 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c934e732ee0546b09ec1fa734e5c25a1 = $(`<div id="html_c934e732ee0546b09ec1fa734e5c25a1" style="width: 100.0%; height: 100.0%;">독립문역</div>`)[0];
+                popup_76a94e9e82f74e8ea3d052c0b53a6660.setContent(html_c934e732ee0546b09ec1fa734e5c25a1);
+            
+
+            marker_c2ec690c22394d909e6e1a931e0b5486.bindPopup(popup_76a94e9e82f74e8ea3d052c0b53a6660)
+            ;
+
+            
+        
+</script>
