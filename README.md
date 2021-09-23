@@ -62,4 +62,4 @@
   * [타이타닉 데이터 시각화](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/06_library/titanic.ipynb)
 
   #### folium
-  * [지하철 3호선 위치 정보](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/08_folium/SeoulMetro3.html)
+  * [지하철 3호선 위치 정보](https://kimjinyeon.github.io/LikeLion_13th_DataCourse/08_folium/SeoulMetro3.html)
