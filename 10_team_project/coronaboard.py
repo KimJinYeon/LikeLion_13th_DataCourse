@@ -22,6 +22,15 @@ driver.get(url_corona)
 driver.implicitly_wait(5)
 time.sleep(10)
 
+# 더보기 버튼
+show_more = driver.find_element_by_xpath('//*[@id="show-more"]')
+show_more.click()
+driver.implicitly_wait(5)
+show_more.click()
+driver.implicitly_wait(5)
+
+time.sleep(10)
+
 # 페이지 소스 받아와서 bs로 parse
 page = driver.page_source
 soup = BeautifulSoup(page, 'html.parser')
