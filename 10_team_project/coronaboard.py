@@ -1,5 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
+from selenium.webdriver.support.ui import Select
 import time
 import datetime
 import pandas as pd
@@ -7,7 +8,7 @@ import re
 
 # 크롬 창을 띄우지 않고 실행하는 옵션
 chrome_option = webdriver.ChromeOptions()
-# chrome_option.add_argument('headless')
+chrome_option.add_argument('headless')
 chrome_option.add_argument("disable-gpu")
 
 # 셀레니움 웹드라이버 실행
@@ -20,7 +21,13 @@ url_corona = 'https://coronaboard.kr/'
 # 웹드라이버 실행
 driver.get(url_corona)
 driver.implicitly_wait(5)
-time.sleep(10)
+time.sleep(3)
+
+# 모든 속성 누르기
+btn_dropdown = Select(driver.find_element_by_xpath('//*[@id="picker-global-table"]'))
+btn_dropdown.select_by_index(0)
+btn_dropdown.select_by_index(1)
+btn_dropdown.select_by_index(5)
 
 # 더보기 버튼
 show_more = driver.find_element_by_xpath('//*[@id="show-more"]')
@@ -76,3 +83,7 @@ dict_info = {'국가':information[1],
 
 corona_info = pd.DataFrame(dict_info)
 corona_info.to_csv(file_name, index=False, encoding='utf-8-sig')
+
+
+# 드라이버 창 닫기
+driver.quit()

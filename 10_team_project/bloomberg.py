@@ -7,12 +7,13 @@ import re
 
 # 크롬 창을 띄우지 않고 실행하는 옵션
 chrome_option = webdriver.ChromeOptions()
-# chrome_option.add_argument('headless')
+#chrome_option.add_argument('headless')
 chrome_option.add_argument("disable-gpu")
 
 # 셀레니움 웹드라이버 실행
 driver = webdriver.Chrome('chromedriver', options=chrome_option)
 driver.implicitly_wait(5)
+time.sleep(20)
 
 # 블룸버그 백신정보 url
 url_corona = 'https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-distribution/'
@@ -20,6 +21,7 @@ url_corona = 'https://www.bloomberg.com/graphics/covid-vaccine-tracker-global-di
 # 웹드라이버 실행
 driver.get(url_corona)
 driver.implicitly_wait(5)
+time.sleep(10)
 
 # 더보기 버튼
 
@@ -71,3 +73,6 @@ dict_info = {'Countries and regions':information[0],
 corona_info = pd.DataFrame(dict_info)
 corona_info.to_csv(file_name, index=False, encoding='utf-8-sig')
 
+
+# 드라이버 창 닫기
+driver.quit()
