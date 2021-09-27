@@ -7,7 +7,7 @@ import re
 
 # 크롬 창을 띄우지 않고 실행하는 옵션
 chrome_option = webdriver.ChromeOptions()
-#chrome_option.add_argument('headless')
+chrome_option.add_argument('headless')
 chrome_option.add_argument("disable-gpu")
 
 # 셀레니움 웹드라이버 실행
