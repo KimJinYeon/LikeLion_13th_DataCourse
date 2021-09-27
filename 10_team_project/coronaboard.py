@@ -2,13 +2,13 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 from selenium.webdriver.support.ui import Select
 import time
-import datetime
+from datetime import date, timedelta
 import pandas as pd
 import re
 
 # 크롬 창을 띄우지 않고 실행하는 옵션
 chrome_option = webdriver.ChromeOptions()
-chrome_option.add_argument('headless')
+#chrome_option.add_argument('headless')
 chrome_option.add_argument("disable-gpu")
 
 # 셀레니움 웹드라이버 실행
@@ -23,6 +23,10 @@ driver.get(url_corona)
 driver.implicitly_wait(5)
 time.sleep(3)
 
+#어제 버튼 클릭
+btn_yesterday = driver.find_element_by_xpath('//*[@id="global-slide"]/div/div[2]/ul/li[2]/a')
+btn_yesterday.click()
+
 # 모든 속성 누르기
 btn_dropdown = Select(driver.find_element_by_xpath('//*[@id="picker-global-table"]'))
 btn_dropdown.select_by_index(0)
@@ -35,6 +39,7 @@ show_more.click()
 driver.implicitly_wait(5)
 show_more.click()
 driver.implicitly_wait(5)
+
 
 time.sleep(10)
 
@@ -63,12 +68,12 @@ for country in country_list:
         information[index].append(text)
         index += 1
 
-# 오늘 날짜
-now = datetime.datetime.now()
-now_date = now.strftime('%Y-%m-%d')
+# 어제 날짜
+yesterday = date.today() - timedelta(1)
+yesterday = yesterday.strftime('%Y-%m-%d')
 
 # 파일명 정하기
-file_name = f'coronaboard({now_date}).csv'
+file_name = f'./data/coronaboard({yesterday}).csv'
 
 dict_info = {'국가':information[1],
              '확진자':information[2],
@@ -83,7 +88,6 @@ dict_info = {'국가':information[1],
 
 corona_info = pd.DataFrame(dict_info)
 corona_info.to_csv(file_name, index=False, encoding='utf-8-sig')
-
 
 # 드라이버 창 닫기
 driver.quit()

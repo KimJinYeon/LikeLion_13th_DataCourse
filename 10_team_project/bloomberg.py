@@ -52,7 +52,7 @@ for country in country_list:
     index = 0
     for info in info_list:
         text = info.text
-        text = text.replace(',', '')
+        text = text.replace(',', '').replace('<', '')
         information[index].append(text)
         index += 1
 
@@ -61,7 +61,7 @@ now = datetime.datetime.now()
 now_date = now.strftime('%Y-%m-%d')
 
 # 파일명 정하기
-file_name = f'bloomberg({now_date}).csv'
+file_name = f'./data/bloomberg({now_date}).csv'
 
 dict_info = {'Countries and regions':information[0],
              'Doses administered':information[1],
