@@ -11,6 +11,8 @@
     * 정말 추적식 방역을 포기했나?: [2021 f/w 방역계획서 분석](https://www.gov.uk/government/publications/covid-19-response-autumn-and-winter-plan-2021/covid-19-response-autumn-and-winter-plan-2021#introduction)
     * 부스터샷 관련 정책은 어떻게 되나? : [부스터샷 정책](https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/coronavirus-booster-vaccine/)
     * 영국 국민들은 위드 코로나 정책에 얼마나 찬성할까?: youGov 자료 모았는데, 신뢰성은 별로인 것 같다.
+        + 영국 국민들은 학교, 대중교통 등에 대한 제한 해제는 긍정적, 나이트클럽에 대한 제한 해제는 부정적으로 느낌
+        + 대부분의 국민들은 확진자가 급증할 시 다시 규제가 필요하다고 생각
 2. 영국의 데이터 수집 (2021-09-28일까지 누적 데이터)
     * 검사 관련 지표 Testing
         + 시간에 따라 검사 시행 횟수가 어떻게 변화했는지? -> 검사 시행이 늘어서 확진자가 증가한 것처럼 보일 수 있다.
