@@ -7,8 +7,9 @@
 #### 영국은 위드 코로나를 어떻게 하고 있고, 어떤 영향이 있었을까?
 
 1. 영국의 코로나 대처 정책 탐구
-    * 신호등 시스템: red, ember, green system 분석
-    * 정말 추적식 방역을 포기했나?: 2021 f/w 방역계획서 분석
+    * 신호등 시스템: red, ember, green system 분석 [신호등 시스템](https://www.gov.uk/guidance/red-amber-and-green-list-rules-for-entering-england)
+    * 정말 추적식 방역을 포기했나?: [2021 f/w 방역계획서 분석](https://www.gov.uk/government/publications/covid-19-response-autumn-and-winter-plan-2021/covid-19-response-autumn-and-winter-plan-2021#introduction)
+    * 부스터샷 관련 정책은 어떻게 되나? : [부스터샷 정책](https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/coronavirus-booster-vaccine/)
     * 영국 국민들은 위드 코로나 정책에 얼마나 찬성할까?
 2. 영국의 데이터 수집 (2021-09-28일까지 누적 데이터)
     * 검사 관련 지표 Testing
