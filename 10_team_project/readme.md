@@ -10,7 +10,7 @@
     * 신호등 시스템: red, ember, green system 분석 [신호등 시스템](https://www.gov.uk/guidance/red-amber-and-green-list-rules-for-entering-england)
     * 정말 추적식 방역을 포기했나?: [2021 f/w 방역계획서 분석](https://www.gov.uk/government/publications/covid-19-response-autumn-and-winter-plan-2021/covid-19-response-autumn-and-winter-plan-2021#introduction)
     * 부스터샷 관련 정책은 어떻게 되나? : [부스터샷 정책](https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/coronavirus-booster-vaccine/)
-    * 영국 국민들은 위드 코로나 정책에 얼마나 찬성할까?
+    * 영국 국민들은 위드 코로나 정책에 얼마나 찬성할까?: youGov 자료 모았는데, 신뢰성은 별로인 것 같다.
 2. 영국의 데이터 수집 (2021-09-28일까지 누적 데이터)
     * 검사 관련 지표 Testing
         + 시간에 따라 검사 시행 횟수가 어떻게 변화했는지? -> 검사 시행이 늘어서 확진자가 증가한 것처럼 보일 수 있다.
@@ -22,13 +22,13 @@
         + 1차/2차 접종률, 전체 접종률
     * 사망 관련 지표 Deaths
         + 양성판정 후 28일 이내 사망, 코로나로 인한 사망 증명서 포함된 케이스
-    * 자료 출처 : [영국 정부 코로나 바이러스 통계 공개](https://coronavirus.data.gov.uk/details/)
+    * 자료 출처 : [영국 정부 코로나 바이러스 통계](https://coronavirus.data.gov.uk/details/)
 3. 영국 데이터 기반으로 분석, 시각화
     * 시간 범위: 위드 코로나 시행 시점~ 현재
     * 자료 범위: 검사, 발병, 보건, 백신, 사망
-    * 위드 코로나 시행 날짜 기준으로 지표가 악화되었을까?
+    * 위드 코로나 시행 날짜 기준으로 지표가 악화되었을까? : 위드 코로나 시행 날짜 데이터와 이후 최고치 데이터의 차이값을 보여주자
         + 얼마나 발병, 보건, 사망 데이터에 영향이 있었을까?
         + 위드 코로나 시행 전후로 검사 케이스에 크게 변화가 있었을까?
-        + 현재 영국의 지표는 어떨까?
     * 위드 코로나 시행 날짜 기준으로 영국의 지표는 얼마나 좋았을까?
-        + 내가 직접 비교하지 말고 다른 팀원이 각자 모은 데이터와 비교 가능할 수 있게 모으자.
+        + 현재 영국의 지표는 어떨까?
+        + 내가 직접 비교하지 말고 다른 팀원이 각자 모은 데이터와 비교 가능할 수 있게 데이터셋을 준비하자.
