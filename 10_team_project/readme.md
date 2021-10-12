@@ -1,4 +1,7 @@
 # 우리나라 10월부터 위드 코로나 해도 될까?
+
+[최종 발표 pdf](https://github.com/KimJinYeon/LikeLion_13th_DataCourse/blob/main/10_team_project/data/trinity%EC%A1%B0_%EC%B5%9C%EC%A2%85%EB%B0%9C%ED%91%9C(%EC%B5%9C%EC%A2%85%EB%B3%B8).pdf)
+
 ## 코로나보드와 블룸버그 데이터 비교해보자
 #### 위드 코로나 하는 국가들과 하지 않는 국가들의 수치는 얼마나 차이날까?
 * 위드 코로나 시행국가들은 Enough for % of people, fully vaccinated이 미시행 국가들보다 높을까?
